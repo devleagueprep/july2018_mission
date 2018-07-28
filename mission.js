@@ -42,6 +42,18 @@ Console.log to see your result.*/
  
  Create a function named evens that takes in a parameter arr and will sum up only the even indexed numbers in the array and returns a new array.
  Console.log your result.*/
+
+var newArray = [];
+
+function evens(arr){
+    for (var i=0; i<arr.length; i++){
+        if (i % 2 === 0){
+        newArray.push(arr[i]);
+        }
+    }
+}
+
+console.log(newArray);
  
  
  /*Mission 5:
@@ -88,6 +100,22 @@ Console.log to see your result.*/
  >10 => "Peppas"
  
  Console.log your result*/
+
+
+function whatToEat(budget){
+    if (budget <= 5){
+        return 'Mickey D "s';
+    } else if (budget <= 10){
+        return 'Panda Express';
+    } else if (budget => 10){
+        return 'Peppas';
+    }
+  }
+
+var newBudget = whatToEat(6);
+console.log(newBudget);
+
+
  
  
  /*Mission 9:
