@@ -50,7 +50,7 @@ function evens(arr){
         if (i % 2 === 0){
         newArray.push(arr[i]);
         }
-    }
+    } return newArray
 }
 
 console.log(newArray);
