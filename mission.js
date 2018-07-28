@@ -10,8 +10,11 @@ Team Member: Jenn3
 
 Create a function named weatherReport that takes a parameter weather and returns the following: "Today's forecast is weather." Where your input will replace the weather parameter.
 Console.log to see your result.*/
-
+function weatherReport(weather){
+    return "Today's forecast is " + weather + ".";
+}
  
+console.log(weatherReport("sunny"));
  /*Mission 2: 
  Team Member: Peter
  
@@ -53,8 +56,17 @@ Console.log to see your result.*/
  
  Create a function named plusOne that takes two parameters arr and str and will add a new string element into an array and will return the array.
  Console.log your result*/
+ function plusOne(arr,str) {
+    var newArr = [];
+    newArr.push(str);
+    return newArr;
+}
+
+console.log(plusOne(null, "hello"));
+
  
- 
+
+
  /*Mission 6:
  Team Member: Peter
  
