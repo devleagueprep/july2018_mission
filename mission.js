@@ -32,7 +32,16 @@ Console.log to see your result.*/
  
  Create a function named doubleUp that takes in a parameter arr and will double the value of each number in the array and returns the array.
  Console.log your result.*/
- 
+ var numbers = [4, 44, 444, 4444];
+ var doubled = [];
+ function doubleUp(arr){
+     for (var i = 0; i<arr; i++){
+         var dub = arr[i];
+         var dubb = dub *2;
+         doubled.push(dubb);
+     }
+ }
+ console.log(doubleUp);
 
  /*Mission 4: 
  Team Member: Jennifer
