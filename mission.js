@@ -43,15 +43,23 @@ Console.log to see your result.*/
  Create a function named evens that takes in a parameter arr and will sum up only the even indexed numbers in the array and returns a new array.
  Console.log your result.*/
 
+var numbersArray = [2,1,2,1,2,1,4,1,2]; 
+
 var newArray = [];
+var sumEven = 0;
 
 function evens(arr){
-    for (var i=0; i<arr.length; i++){
+    newArray.push(arr[0]);
+    for (var i=0; i<arr.length; i++){       
         if (i % 2 === 0){
+        sumEven += arr[i]    
         newArray.push(arr[i]);
+        console.log(sumEven)
         }
     } return newArray
 }
+
+evenSum = evens(numbersArray);
 
 console.log(newArray);
  
@@ -107,12 +115,12 @@ function whatToEat(budget){
         return 'Mickey D "s';
     } else if (budget <= 10){
         return 'Panda Express';
-    } else if (budget => 10){
+    } else if (budget > 10){
         return 'Peppas';
     }
   }
 
-var newBudget = whatToEat(6);
+var newBudget = whatToEat(7);
 console.log(newBudget);
 
 
