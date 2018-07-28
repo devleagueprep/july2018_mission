@@ -29,5 +29,11 @@
 8. Commit your work.
 
 9. Make a pull request.
+<<<<<<< HEAD
    
 thank you for the food!!!
+=======
+
+thank you for the ono food!
+   
+>>>>>>> master
